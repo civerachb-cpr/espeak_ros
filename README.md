@@ -70,10 +70,7 @@ a worker thread to pull messages out of the queue and process them.
 
 The node accepts the following parameters, defined in `espeak_ros/config/espeak.yaml`:
 
-+------------+---------------+------------------------------------------------------------+
 | Parameter  | Default Value | Description                                                |
-+============+===============+============================================================+
+| ---------- | ------------- | ---------------------------------------------------------- |
 | `voice`    | `default`     | The espeak voice to use. e.g. `en-gb`, `en-us+f3`, `fr-fr` |
-+------------+---------------+------------------------------------------------------------+
 | `maxQueue` | `1`           | The maximum size of the message queue                      |
-+------------+---------------+------------------------------------------------------------+
