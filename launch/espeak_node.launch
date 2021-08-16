@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="espeak_node" pkg="espeak_ros" type="espeak_node">
+    <rosparam command="load" file="$(find espeak_ros)/config/espeak.yaml" />
+  </node>
+</launch>

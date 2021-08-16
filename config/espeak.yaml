@@ -1,0 +1,12 @@
+# The Espeak voice to use
+# e.g.
+# en
+# en-gb
+# en-us+m1
+# see `espeak --voices` for supported languages on your system
+voice: en-us+f2
+
+# how many messages do we queue?
+# lower means we'll drop messages if we receive them faster than we can speak
+# higher means we'll speak all messages, but may be REALLY slow getting through them all
+maxQueue: 1
